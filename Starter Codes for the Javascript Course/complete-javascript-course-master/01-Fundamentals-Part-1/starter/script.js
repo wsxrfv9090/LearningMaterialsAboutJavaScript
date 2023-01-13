@@ -160,5 +160,61 @@ GOOD LUCK 😀
 //     console.log(`John's BMI (${BMI4}) is higher than Mark's. (${BMI3})`);
 // }
 
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
+
+// console.log(String(23));
+
+// console.log("I'm " + 23 + " years old");
+// console.log('23' - '3' - '10');
+// console.log('23' * '2');
+// console.log('23' / '2');
+
+// let n = '1' + 1;
+// n -= 1;
+// console.log(n);
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
+
+// const money = 10;
+// if (money) {
+//     console.log("don't spend it all");
+// } else {
+//     console.log("You should get a job");
+// }
+
+// let hight;
+// if (hight) {
+//     console.log("defined");
+// } else {
+//     console.log("undefined");
+// }
+
+// const age = '18';
+// if (age === 18)
+//     console.log(" He's 18(1");
+
+// if (age == 18)
+//     console.log(" He's 18(2");
+
+// const favorite = prompt("Your favorite number");
+// console.log(favorite);
+// console.log(typeof (favorite));
+
+// const A = true;
+// const B = true;
+
+// console.log(A && B);
+// console.log(A || B);
+// console.log(!A);
 
 
+//Test Data:
