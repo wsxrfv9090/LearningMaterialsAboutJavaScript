@@ -217,4 +217,70 @@ GOOD LUCK 😀
 // console.log(!A);
 
 
-//Test Data:
+//Test Data: Dolphins 96, 108 and 89. Koalas score 88, 91 and 110.
+//Test Data Bonus 1: Dolphins 97, 112 and 101, Koalas score 109, 95 and 123
+//Test Data Bonus 2: Dolphins 97, 112 and 101, Koalas score 109, 95 and 106
+
+// //challenge
+// const avD1 = (96 + 108 + 89) / 3;
+// const avK1 = (88 + 91 + 110) / 3;
+// if (avD1 > avK1) {
+//     console.log("Dolphins have won!!!!");
+// } else if (avD1 == avK1) {
+//     console.log("It's a draw!!!");
+// } else {
+//     console.log("Koala have won!!!!");
+// }
+// //bonus 1
+// const avD2 = (97 + 112 + 101) / 3;
+// const avK2 = (109 + 95 + 123) / 3;
+// if (avD2 > avK2 && avD2 >= 100) {
+//     console.log("Dolphins have won!!!!");
+// } else if (avD2 == avK2 && avD2 >= 100) {
+//     console.log("It's a draw!!!");
+// } else if (avD2 < avK2 && avK2 >= 100) {
+//     console.log("Koala have won!!!!");
+// }
+// //bonux 2
+// const avD3 = (97 + 112 + 101) / 3;
+// const avK3 = (109 + 95 + 106) / 3;
+// if (avD3 > avK3 && avD3 >= 100) {
+//     console.log("Dolphins have won!!!!");
+// } else if (avD3 === avK3 && avD3 >= 100) {
+//     console.log("It's a draw!!!");
+// } else if (avD3 < avK3 && avK3 >= 100) {
+//     console.log("Koala have won!!!!");
+// }
+
+// const day = 'monday';
+// switch (day) {//day === monday
+//     case 'monday':
+//         console.log("Plan course structure");
+//         break;
+//     case 'Tuesday':
+//         console.log()
+// }
+
+// const age = 23;
+// age >= 18 ? console.log("Let's go drinking!!!") : console.log("Let's drink water!!! TT ");
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+
+// let age = 28;
+// console.log(`I'd like to drink ${age >= 18 ? 'Wine' : 'Water'}`);
+
+//Coding Challenge #4
+//TEST DATA: test for bill values 275, 40 and 430
+
+// let bill = 275;
+// let tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill is ${bill}, The tip is ${tip}, The total is ${bill + tip}`);
+
+// bill = 40;
+// tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill is ${bill}, The tip is ${tip}, The total is ${bill + tip}`);
+
+// bill = 430;
+// tip = 50 <= bill && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// console.log(`The bill is ${bill}, The tip is ${tip}, The total is ${bill + tip}`);
