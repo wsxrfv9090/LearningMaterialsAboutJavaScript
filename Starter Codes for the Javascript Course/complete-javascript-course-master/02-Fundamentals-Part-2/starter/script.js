@@ -202,7 +202,7 @@
 // console.log(jonas);
 
 // const interestedIn = prompt('What do you want to know about jonas? Choose between firstName, lastNmae, age, job and friends');
-
+// hasDriversLicense
 // if (jonas[interestedIn]) {
 //     console.log(jonas[interestedIn]);
 // } else {
@@ -232,3 +232,47 @@
 // console.log(jonas.age);
 // //Challenge:
 // console.log(jonas.getSummary());
+
+
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     culcBMI: function (mass, height) {
+//         this.BMI = this.mass / (this.height) ** 2;
+//         return this.BMI;
+//     }
+// }
+
+// const smith = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     culcBMI: function (mass, height) {
+//         this.BMI = this.mass / (this.height) ** 2;
+//         return this.BMI;
+//     }
+// }
+
+// mark.culcBMI();
+// smith.culcBMI();
+// const bigger = mark.BMI > smith.BMI ? mark : smith;
+// const smaller = bigger === mark ? smith : mark;
+// console.log(`${bigger.fullName}'s BMI (${bigger.BMI}) is higher than ${smaller.fullName}'s BMI (${smaller.BMI})`);
+
+// for (let rep = 1; rep <= 10; rep++) {
+//     console.log(`Lifting weights repetition ${rep}`);
+// } 
+
+const jonasArray = [
+    'Jonas',
+    'Schemedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'peter', 'Steven']
+];
+
+for (let i = 0; i <= 4; i++) {
+    console.log(jonasArray[i]);
+}
