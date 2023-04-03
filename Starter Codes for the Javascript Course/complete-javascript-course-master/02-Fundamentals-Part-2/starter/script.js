@@ -263,16 +263,46 @@
 
 // for (let rep = 1; rep <= 10; rep++) {
 //     console.log(`Lifting weights repetition ${rep}`);
-// } 
+// }
 
-const jonasArray = [
-    'Jonas',
-    'Schemedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'peter', 'Steven']
-];
+// const years = [1991, 2033, 1093, 2333];
+// const age = [];
 
-for (let i = 0; i <= 4; i++) {
-    console.log(jonasArray[i]);
+// for (let i = 0; i < years.length; i++) {
+//     age.push(2037 - years[i]);
+// }
+
+// console.log(age);
+
+const bills = [22, 295, 176, 440, 27, 105, 10, 1100, 86, 52];
+let tips = [];
+let totals = [];
+
+function calcTip(sum) {
+    if (sum >= 50 && sum <= 300) {
+        return sum * 0.15
+    }
+    else {
+        return sum * 0.20
+    }
 }
+
+function calcAverage(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+    return total / arr.length;
+}
+
+for (let i = 0; i < bills.length; i++) {
+    tips[i] = calcTip(bills[i]);
+    totals[i] = tips[i] + bills[i];
+}
+
+
+console.log(tips);
+console.log(totals);
+console.log(calcAverage(bills));
+console.log(calcAverage(tips));
+console.log(calcAverage(totals));
