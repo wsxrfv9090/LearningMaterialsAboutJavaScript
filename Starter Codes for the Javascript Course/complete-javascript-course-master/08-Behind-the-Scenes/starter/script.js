@@ -68,7 +68,7 @@ lastName = 'Davis';
 console.log(lastName, oldLastName);
 
 const jessica = {
-    firstName: 'Jessica',
+    firstName: 'Jess  ica',
     lastName: 'Williams',
     age: 27,
     family: ['Alice', 'Bob'],
