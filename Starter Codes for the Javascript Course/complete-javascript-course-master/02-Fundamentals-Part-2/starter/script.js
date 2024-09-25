@@ -274,35 +274,35 @@
 
 // console.log(age);
 
-const bills = [22, 295, 176, 440, 27, 105, 10, 1100, 86, 52];
-let tips = [];
-let totals = [];
+// const bills = [22, 295, 176, 440, 27, 105, 10, 1100, 86, 52];
+// let tips = [];
+// let totals = [];
 
-function calcTip(sum) {
-    if (sum >= 50 && sum <= 300) {
-        return sum * 0.15
-    }
-    else {
-        return sum * 0.20
-    }
-}
+// function calcTip(sum) {
+//     if (sum >= 50 && sum <= 300) {
+//         return sum * 0.15
+//     }
+//     else {
+//         return sum * 0.20
+//     }
+// }
 
-function calcAverage(arr) {
-    let total = 0;
-    for (let i = 0; i < arr.length; i++) {
-        total += arr[i];
-    }
-    return total / arr.length;
-}
+// function calcAverage(arr) {
+//     let total = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         total += arr[i];
+//     }
+//     return total / arr.length;
+// }
 
-for (let i = 0; i < bills.length; i++) {
-    tips[i] = calcTip(bills[i]);
-    totals[i] = tips[i] + bills[i];
-}
+// for (let i = 0; i < bills.length; i++) {
+//     tips[i] = calcTip(bills[i]);
+//     totals[i] = tips[i] + bills[i];
+// }
 
 
-console.log(tips);
-console.log(totals);
-console.log(calcAverage(bills));
-console.log(calcAverage(tips));
-console.log(calcAverage(totals));
+// console.log(tips);
+// console.log(totals);
+// console.log(calcAverage(bills));
+// console.log(calcAverage(tips));
+// console.log(calcAverage(totals));
